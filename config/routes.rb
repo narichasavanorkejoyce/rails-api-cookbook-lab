@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
   resources :examples, except: [:new, :edit]
   resources :ingredients, except: [:new, :edit]
+  resources :recipes, except: [:new, :edit]
 
   # resources :ingredients, only: [:index, :show, :create, :update]
 end

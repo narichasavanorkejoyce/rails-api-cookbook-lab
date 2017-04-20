@@ -17,3 +17,12 @@
 #                password: 'abc123',
 #                password_confirmation: nil)
 # end
+
+Recipe.create([
+                { name: 'french toast',
+                  directions: 'add eggs, fry toast' },
+                { name: 'scrambled eggs',
+                  directions: 'scramble eggs' },
+                { name: 'pancakes',
+                  directions: 'fry batter' }
+              ])
